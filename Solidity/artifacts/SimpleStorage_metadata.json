@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favouriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		"Solidity/SimpleStorage.sol": {
-			"keccak256": "0x1ebaf6ea2043066b7665ebd5b5f17c20ce9b6d4a9e02d2532ea41019da2d4000",
+			"keccak256": "0x5219ea625384ba193dd94caa4128b082fabd125d41899e483e187c49fb666eb8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6d38a7a10f70c1aaa2769f6873c2a8de196dd4dd044ffb703eded0b9048f507e",
-				"dweb:/ipfs/QmPad4N91FyaWKNkdxKpBKV14pNjoYyy5vcX5B1NDarUR9"
+				"bzz-raw://a1b79c0e4cad7666ed907a63bdf2e81b3d8f9195161f4216e5fb1f1664333be8",
+				"dweb:/ipfs/QmYTyAwDPVSGmXgMcgRnSvAvgYqMhGTwmEBdiEB55qFAPU"
 			]
 		}
 	},
