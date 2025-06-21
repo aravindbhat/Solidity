@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/SimpleStorage.sol": {
+			"keccak256": "0x1ebaf6ea2043066b7665ebd5b5f17c20ce9b6d4a9e02d2532ea41019da2d4000",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d38a7a10f70c1aaa2769f6873c2a8de196dd4dd044ffb703eded0b9048f507e",
+				"dweb:/ipfs/QmPad4N91FyaWKNkdxKpBKV14pNjoYyy5vcX5B1NDarUR9"
+			]
+		}
+	},
+	"version": 1
+}
